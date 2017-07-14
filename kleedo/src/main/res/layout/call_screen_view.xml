@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:weightSum="2.0">
+        <RelativeLayout android:id="@id/callAnyOneId" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Call Anyone" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/callAnyOneSelected" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/recentCallId" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recent Calls" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/recentCallSelected" android:background="#46000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/dialorView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

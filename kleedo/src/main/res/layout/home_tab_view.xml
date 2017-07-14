@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.9">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/userBannerImage" android:background="#26000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.app.elitesample.utils.OpenSansLightTxt android:textColor="@android:color/white" android:id="@id/homeUserTimeTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="UK 11:00(GT)" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="22.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bruce Wayne" android:layout_above="@id/homeUserTimeTxt" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/editProfileBtn" android:background="@drawable/proedit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="1.1">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="3.0" android:layout_weight="1.0">
+            <RelativeLayout android:gravity="center" android:id="@id/billingView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/billing" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/billing" android:layout_centerHorizontal="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Billing methods" android:layout_below="@id/billing" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:id="@id/referAFriend" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/referFrends" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/referfriend" android:layout_centerHorizontal="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Refer a friend" android:layout_below="@id/referFrends" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:id="@id/displayCaller" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/callerIds" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/callerid" android:layout_centerHorizontal="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calling Rates" android:layout_below="@id/callerIds" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="3.0" android:layout_weight="1.0">
+            <RelativeLayout android:gravity="center" android:id="@id/settingView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/settingBtn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting" android:layout_centerHorizontal="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Settings" android:layout_below="@id/settingBtn" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:id="@id/notificationView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/notifications" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification" android:layout_centerHorizontal="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notifications" android:layout_below="@id/notifications" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:id="@id/supportView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/supports" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/support" android:layout_centerHorizontal="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Support" android:layout_below="@id/supports" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/wallet_border" android:layout_width="fill_parent" android:layout_height="@dimen/stored_card_row_height" android:layout_margin="8.0dip" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="0.8">
+        <ImageView android:background="@drawable/visa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:background="@drawable/rm_card" android:layout_width="70.0dip" android:layout_height="22.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_weight="1.2">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="****" />
+            <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="****" />
+            <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="****" />
+            <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="2785" />
+        </LinearLayout>
+        <com.app.elitesample.utils.OpenSansLightTxt android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="valid thru: 09/22" />
+    </LinearLayout>
+</LinearLayout>

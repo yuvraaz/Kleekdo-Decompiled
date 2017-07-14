@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <android.support.v7.widget.RecyclerView android:id="@id/chatRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_above="@id/bottomChatView" android:layout_below="@id/topController" />
+    <android.support.v7.widget.CardView android:id="@id/bottomChatView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="8.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageButton android:id="@id/userAttachement" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/attachment" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <EditText android:id="@id/userMessageView" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Type Message here" android:maxLines="1" android:layout_toLeftOf="@id/userSendMsg" android:layout_toRightOf="@id/userAttachement" android:layout_centerVertical="true" />
+            <ImageButton android:id="@id/userSendMsg" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/sendmessage" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

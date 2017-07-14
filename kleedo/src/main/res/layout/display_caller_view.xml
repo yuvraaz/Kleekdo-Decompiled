@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="2.0">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.app.elitesample.utils.OpenSansLightTxt android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Credits" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$10.74" />
+                <com.app.elitesample.utils.OpenSansLightTxt android:textColor="@android:color/white" android:background="@drawable/rounded_corner" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Top-Up" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:background="@drawable/rounded_white_border" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:id="@id/countryIdName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UKraine+387" android:drawableLeft="@drawable/backspace" android:drawablePadding="7.0dip" android:layout_centerVertical="true" />
+            <TextView android:id="@id/countryDivider" android:background="#46000000" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/countryIdName" />
+            <com.app.elitesample.utils.OpenSansRegularTxt android:id="@id/dialertxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:text="" android:maxLines="1" android:layout_toLeftOf="@id/deleteDigit" android:layout_toRightOf="@id/countryDivider" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/deleteDigit" android:background="@drawable/backspace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.app.elitesample.utils.OpenSansLightTxt android:textColor="@color/colorPrimary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Rate-$1.25/min" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:weightSum="4.0">
+            <RelativeLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/oneBtn1" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <ImageView android:id="@id/twoBtn2" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/threeBtn3" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="4.0">
+            <RelativeLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/fourBtn4" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <ImageView android:id="@id/fiveBtn5" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/sixBtn6" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="4.0">
+            <RelativeLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/sevenBtn7" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <ImageView android:id="@id/eightBtn8" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/nineBtn9" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="4.0">
+            <RelativeLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/starBtn" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="2.0">
+                <ImageView android:id="@id/zeroBtn0" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/hashBtn" android:background="@drawable/dialor_bg" android:layout_width="@dimen/circle_btn_size" android:layout_height="@dimen/circle_btn_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\#" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:background="@drawable/callbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:weightSum="2.0">
+        <RelativeLayout android:id="@id/currentBalanceView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current Balance" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/borderColorCurrentBalance" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/storedCardView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stored Cards" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/storedCardColor" android:background="#46000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/storeTabContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

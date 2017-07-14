@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="Debit/Credit Card" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/billing_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="5.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="Kleekdo Wallet" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/billing_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/billing_first" />
+            <com.app.elitesample.utils.OpenSansLightTxt android:textSize="22.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:text="Debit/Credit Cards" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip">
+                <ImageView android:background="@drawable/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="We accept Vist, MasterCard, and American Express" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip">
+                <ImageView android:background="@drawable/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="We don't accept virtual card numbers, gift cards and prepaid card." />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip">
+                <ImageView android:background="@drawable/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="You may be required to verify the amounts of two small charges to your account." />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip">
+                <ImageView android:background="@drawable/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Not all debit cards can be verify." />
+            </LinearLayout>
+            <com.app.elitesample.utils.OpenSansLightTxt android:textSize="22.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:text="Kleekdo Wallet" />
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="We accept Visa, MasterCard and American Express. We don't accept virtual card numbers, gift cards and prepaid cards" />
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="You may be required to verify the amount of two small charges to your account." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

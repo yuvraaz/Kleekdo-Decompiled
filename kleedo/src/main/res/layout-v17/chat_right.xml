@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.app.elitesample.utils.CircleImageView android:id="@id/userImageView" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/bubble" android:background="@drawable/chat_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_toLeftOf="@id/userImageView">
+        <ImageView android:id="@id/user_reply_status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/message_text" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textColor="@color/gray" android:id="@id/time_text" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="17:10" android:layout_toLeftOf="@id/user_reply_status" android:layout_alignBottom="@id/message_text" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/user_reply_status" style="@style/chat_timings" />
+        <TextView android:autoLink="web" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rahul Agrawal is a good boy but he does not know what he wants." android:layout_toLeftOf="@id/time_text" style="@style/chat_text_message_style" />
+    </RelativeLayout>
+</RelativeLayout>

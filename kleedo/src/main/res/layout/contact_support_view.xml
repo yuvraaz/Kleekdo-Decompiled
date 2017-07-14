@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <EditText android:id="@id/contactUserName" android:background="@drawable/rounded_white_border" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:hint="User Name" />
+    <EditText android:id="@id/contactemail" android:background="@drawable/rounded_white_border" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:hint="Email Address" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:weightSum="2.0">
+        <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Subject" android:layout_weight="1.0" />
+        <Spinner android:entries="@array/size_entries" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.app.elitesample.utils.OpenSansRegularTxt android:background="@drawable/rounded_white_border" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/about_one_section" />
+    <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:background="@drawable/rounded_corner" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="Send" />
+</LinearLayout>

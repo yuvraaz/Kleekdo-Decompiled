@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/storeBannerImg" android:background="@drawable/offer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:layout_centerVertical="true">
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="@dimen/store_title_size" android:textColor="@color/white" android:id="@id/storeTitleName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome" />
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="@dimen/store_title_desc_size" android:textColor="@color/white" android:id="@id/storeDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This is the testing view" />
+    </LinearLayout>
+</RelativeLayout>

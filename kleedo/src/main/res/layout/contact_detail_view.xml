@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_controllerview" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/profile_size">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/userBannerImage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="horizontal" android:background="#46000000" android:layout_width="fill_parent" android:layout_height="60.0dip" android:weightSum="2.0" android:layout_alignParentBottom="true">
+                <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_weight="1.5">
+                    <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="@dimen/userDetail_name_size" android:textColor="@android:color/white" android:id="@id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bruce Wayne" />
+                    <com.app.elitesample.utils.OpenSansLightTxt android:textSize="@dimen/userDetail_location_size" android:textColor="@android:color/white" android:id="@id/userLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LastLocation-UK a1:30(GMT)" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                    <ImageButton android:id="@id/userShareBtn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share" />
+                    <ImageButton android:id="@id/userFavBtn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/favriote" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_size">
+                <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Status" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:background="#46000000" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block_size" android:weightSum="3.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/contact_status_below_block_size" android:weightSum="3.0" android:layout_weight="0.7">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <RelativeLayout android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:background="@drawable/call_border_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:background="@drawable/call_border_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/message" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <RelativeLayout android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:background="@drawable/call_border_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:background="@drawable/call_border_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/message" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <RelativeLayout android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:background="@drawable/call_border_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:background="@drawable/call_border_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                            <ImageButton android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/message" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/contact_status_below_block_size" android:weightSum="3.0" android:layout_weight="1.6">
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kleekdo to Kleekdo" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 345678798988" />
+                        <com.app.elitesample.utils.OpenSansLightTxt android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ukryan" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <com.app.elitesample.utils.OpenSansLightTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 4564476576657" />
+                        <com.app.elitesample.utils.OpenSansLightTxt android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="United State" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:background="#46000000" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/contact_status_below_block_size" android:weightSum="3.0" android:layout_weight="0.7">
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@color/contact_detail_innerTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FREE" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@color/contact_detail_innerTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.25/min" />
+                        <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@color/contact_detail_innerTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.1/sms" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_below_block__single_row_size">
+                        <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@color/contact_detail_innerTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.35/min" />
+                        <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@color/contact_detail_innerTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.15/sms" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_size">
+                <TextView android:background="#46000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+                <com.app.elitesample.utils.OpenSansLightTxt android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show More" android:drawableRight="@drawable/downarrow" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:background="#40000000" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_size">
+                    <ImageButton android:layout_gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/reload" />
+                    <com.app.elitesample.utils.OpenSansRegularTxt android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/contact_detail_topup_view" />
+                </LinearLayout>
+                <TextView android:background="#46000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="35.0dip" android:layout_marginRight="20.0dip" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_size">
+                    <ImageButton android:layout_gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/globe" />
+                    <com.app.elitesample.utils.OpenSansRegularTxt android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/contact_detail_request_topup_view" />
+                </LinearLayout>
+                <TextView android:background="#46000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="35.0dip" android:layout_marginRight="20.0dip" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/contact_status_size">
+                    <ImageButton android:layout_gravity="center_vertical" android:background="@drawable/actioncall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+                    <com.app.elitesample.utils.OpenSansRegularTxt android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/contact_detail_pay_view" />
+                </LinearLayout>
+                <TextView android:background="#46000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

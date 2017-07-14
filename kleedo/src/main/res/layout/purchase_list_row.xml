@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:weightSum="2.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ID 001257 - Paid" android:drawableRight="@drawable/paid" android:drawablePadding="8.0dip" />
+        </LinearLayout>
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textColor="@color/colorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="30 USD(1.000 NGN)" android:layout_weight="0.8" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:weightSum="2.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Service" />
+        </LinearLayout>
+        <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Claro-Data Bundle" android:layout_weight="0.8" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:weightSum="2.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recipient" />
+        </LinearLayout>
+        <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="+390 90 098 9876" android:layout_weight="0.8" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:weightSum="2.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.2">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Card" />
+        </LinearLayout>
+        <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="(*9876)" android:drawableLeft="@drawable/mastercard" android:layout_weight="0.8" />
+    </LinearLayout>
+</LinearLayout>

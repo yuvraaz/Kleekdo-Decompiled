@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip">
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="18.0sp" android:textColor="@android:color/black" android:gravity="center|left" android:background="@drawable/rounded_white_border" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="20/03/2017 - 24/04/2017" android:drawableRight="@drawable/calendar" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/purchaseList" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

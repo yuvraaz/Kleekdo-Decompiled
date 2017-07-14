@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">54.999996%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="circle_btn_size">60.0dip</dimen>
+    <dimen name="contact_status_below_block__single_row_size">60.0dip</dimen>
+    <dimen name="contact_status_below_block_size">180.0dip</dimen>
+    <dimen name="contact_status_size">55.0dip</dimen>
+    <dimen name="edit_profile_height">200.0dip</dimen>
+    <dimen name="login_btn_height">60.0dip</dimen>
+    <dimen name="login_btn_width">200.0dip</dimen>
+    <dimen name="profile_size">185.0dip</dimen>
+    <dimen name="social_shareHeight">75.0dip</dimen>
+    <dimen name="stored_card_row_height">130.0dip</dimen>
+    <dimen name="top_controller_size">60.0dip</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.7">
+        <ImageView android:background="@drawable/faq_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/middleTxtView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How Can We Help?" android:layout_centerInParent="true" />
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/middleTxtView" android:layout_alignLeft="@id/middleTxtView" android:layout_alignRight="@id/middleTxtView" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.3">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.app.elitesample.utils.OpenSansLightTxt android:gravity="center_vertical" android:background="@color/gray" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Getting Started" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="First steps after downloading the app" />
+                <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="How do I verify my number?" />
+                <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Call type settings" />
+                <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip" android:text="I have a new number, how do I add it to my account?" />
+                <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <com.app.elitesample.utils.OpenSansRegularTxt android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More questions" android:drawableRight="@drawable/downarrow" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:background="@color/gray" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Making a Call" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="How do I make a call using the app?" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

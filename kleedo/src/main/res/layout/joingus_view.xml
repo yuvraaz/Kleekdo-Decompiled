@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="25.0dip" android:layout_centerHorizontal="true">
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="@dimen/login_welcome_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/join_us" />
+        <EditText android:gravity="center" android:id="@id/userName" android:background="@drawable/login_input_back" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="280.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:hint="Enter your name" android:maxLines="1" />
+        <EditText android:gravity="center" android:id="@id/enterPhoneNo" android:background="@drawable/login_input_back" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="280.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:hint="Enter your phone(ex. 76896574)" android:maxLines="1" />
+        <EditText android:gravity="center" android:id="@id/enterEmail" android:background="@drawable/login_input_back" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="280.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:hint="Enter your Email" android:maxLines="1" />
+        <ImageView android:id="@id/registrationBtnView" android:background="@drawable/registerbutton" android:layout_width="@dimen/login_btn_width" android:layout_height="@dimen/login_btn_height" android:layout_marginTop="25.0dip" android:contentDescription="dffrgrgsgsgsg" />
+    </LinearLayout>
+</RelativeLayout>

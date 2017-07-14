@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="2.0">
+
+    <include layout="@layout/top_controllerview" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.7"
+        android:background="@drawable/support_view">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30.0dip"
+            android:background="@drawable/logologin" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.3"
+        android:orientation="vertical"
+        android:weightSum="7.0">
+
+        <LinearLayout
+            android:id="@id/quickTour"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <com.app.elitesample.utils.OpenSansRegularTxt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="Quick Tour"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@id/aboutKleekdoView"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <com.app.elitesample.utils.OpenSansRegularTxt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="About Kleekdo"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@id/contactSupport"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <com.app.elitesample.utils.OpenSansRegularTxt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="Contact Support"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@id/leaveFeedback"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <com.app.elitesample.utils.OpenSansRegularTxt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="Leave Feedback"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@id/helpFaqView"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <com.app.elitesample.utils.OpenSansRegularTxt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="Help / FAQ"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@id/termsOfServices"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical">
+
+            <com.app.elitesample.utils.OpenSansRegularTxt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="Terms of Service"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/gray" />
+
+        <com.app.elitesample.utils.OpenSansLightTxt
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="Kleekdo k.1.0.1 | Copyright @ 2017"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_controllerview" />
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="Search Country" android:drawableRight="@drawable/search_btn" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+        <ListView android:id="@id/callingRateRecyclerView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.8" />
+        <com.app.elitesample.adapters.SideSelector android:id="@id/side_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2" />
+    </LinearLayout>
+</LinearLayout>

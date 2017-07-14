@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_controllerview" />
+        <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:text="Choose a Service" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:weightSum="2.0">
+            <LinearLayout android:background="@drawable/current_balance" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9">
+                <ImageView android:background="@drawable/mobilerecharge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mobile Recharge" />
+            </LinearLayout>
+            <TextView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="0.1" />
+            <LinearLayout android:background="@drawable/current_balance" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9">
+                <ImageView android:background="@drawable/datarecharge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Data Bundle" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More Services" android:drawableRight="@drawable/dropdown" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/request_Service_request_Amount_Height" android:layout_marginLeft="10.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Request Amount" />
+        </RelativeLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter Manually" android:drawableRight="@drawable/dropdown" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="65.0dip" android:weightSum="2.0">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Due Date" android:drawablePadding="5.0dip" android:layout_weight="0.6" />
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/rounded_white_border" android:paddingLeft="15.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="May 04, 2017" android:drawableRight="@drawable/calendar" android:layout_weight="1.3" />
+        </LinearLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="65.0dip" android:weightSum="2.0">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Payer Detvails" android:drawablePadding="5.0dip" android:layout_weight="0.6" />
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/rounded_white_border" android:paddingLeft="15.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="choose payer from contact" android:drawableRight="@drawable/calendar" android:layout_weight="1.3" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <com.app.elitesample.utils.OpenSansRegularTxt android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add New Payer" android:drawableRight="@drawable/dropdown" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <Button android:layout_gravity="center" android:background="@drawable/rounded_corner" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SEND REQUEST" />
+    </LinearLayout>
+</ScrollView>
